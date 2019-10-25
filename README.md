@@ -85,3 +85,17 @@ Plan on having one person present the slides and live demo. Please practice your
 * Live Demo (2 minutes)
 * Future Goals (30 seconds)
 * Questions (3 minutes)
+
+## Final Schedule
+
+### 5th Day
+
+* **Deadline**: 6pm Pacific Code Freeze: Submit your final PR
+	* Required: Submit your final TestFlight MVP
+* 6pm - 9pm Demo Day Prep and Help (or whenever your usual 5th day hours are)
+
+### Monday
+
+* **Deadline**: 5pm Pacific Submit your Slides (iOS Demo Day PR)
+* Required: **iOS Demo Day @ 6pm Pacific** (You must present to complete build week)
+
