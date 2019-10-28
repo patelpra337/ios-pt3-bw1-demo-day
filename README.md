@@ -25,27 +25,34 @@ The video demo is for sharing your work on your portfolio, but it is also a fall
 
 1. What was your favorite feature to implement? Why?
 
-    `<Your answer here>`
+CollectionViewCell - Favorite feature we can visually see what the app looks like by configuring the IBOutlets and IBAction
 
 2. What was your #1 obstacle or bug that you fixed? How did you fix it?
 
-    `<Your answer here>`
+    Not 100% MVP; Unable to display all images; providing the init() fuction with-in MedicationController
   
 3. Share a chunk of code (or file) you're proud of and explain why.
 
-    `<Your answer here>`
-  
+  private func updateViews() {
+        guard let medicationItem = self.medicationItem else { return }
+
+        self.nameLabel.text = medicationItem.name
+        self.imageView.image = UIImage(named: medicationItem.name)
+        self.hasBeenTaken.text = medicationItem.hasBeenTaken ? "Taken" : "Not Taken"
+
+Frist allows to see the images and toggle between "Taken" : "Not Taken"
+
 4. What is your elevator pitch? (30 second description your Grandma or a 5-year old would understand)
 
-    `<Your answer here>`
+    Have you taken you meds yet?
   
 5. What is your #1 feature?
 
-    `<Your answer here>`
+   CollectionViewCell
   
 6. What are you future goals?
 
-    `<Your answer here>`
+    Learn to build complex apps
 
 ## Required Slides (Add your Keynote to your PR)
 
